@@ -1,0 +1,38 @@
+.promotion {
+    background-color:#fa6938;
+    padding:5px;
+
+    .title {
+        text-transform:uppercase;
+        float:left;
+        background:darkslategray;
+        opacity:.5;
+        border-radius:3px;
+        padding:.5px 8px .5px 8px;
+        margin-left:15%;
+        letter-spacing:1px; 
+        font-weight:lighter; 
+        color:$font-color;
+    }
+
+    a {
+        text-decoration:none;
+        color:$font-color;
+    }
+}
+
+a:hover {
+    color:$hover-link-color;
+}
+
+
+.money li {
+    display:inline-block;
+    font-size:.8em;
+    margin-left:1%;
+}
+
+.promotion:hover {
+    background-color:$hover-link-color;
+    color:$font-color;
+}

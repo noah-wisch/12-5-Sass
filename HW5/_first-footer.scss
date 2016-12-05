@@ -1,0 +1,60 @@
+.weekly {
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    margin-top:5%;
+    margin-left:170px;
+
+    a {
+        color:$hover-link-color;
+    }
+}
+
+#weekly img {
+    height:155px;
+    border-radius:3px;
+}
+
+#weekly img:hover {
+    border:1px solid lightgray;
+}
+
+.weekly a:hover {
+    color:dodgerblue;
+}
+
+#guide img {
+    height:155px;
+    border-radius:3px;
+}
+
+#guide img:hover {
+    border:1px solid lightgray;
+}
+
+#loop p {
+    font-size:.9em;
+}
+
+#email {
+    border-radius:2px;
+    padding:2px;
+}
+
+#sub {
+    border:1px solid grey;
+    background-color:$hover-link-color;
+    border-radius:2px; 
+    color:white;
+    padding: 3px 5px 3px 5px;
+    text-transform:uppercase;
+}
+
+#sub:hover {
+    background-color:#318fe0;
+}
+
+#some {
+    float:left;
+    width:67%;
+}

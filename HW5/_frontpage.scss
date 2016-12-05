@@ -1,0 +1,86 @@
+/* main */
+.ties {
+    display:block;
+    background-color:#F4F4F4;
+    padding-bottom:1%; 
+    position:relative; 
+
+    ul{
+        display:flex;
+        justify-content:space-between;
+        list-style-type: none;
+        width:860px;
+        margin-left:20%;
+    }   
+
+    img {
+        display:flex;
+        height:155px;
+        justify-content:space-between;
+    }
+}
+
+h1 {
+    text-align:center;
+    font-size:3em;
+    font-weight:lighter;
+    margin-top:6%;
+}
+
+
+/* bow ties bar */
+.triple {
+    margin-top:10%;
+    background-color:#FFF;
+
+    ul {
+         margin-left:75px;
+
+        li {
+            color:black;
+            display:flex;
+            justify-content:space-between;
+            margin-left:11%;
+            width:28%;
+
+                img {
+                border:2px solid lightgray;
+                padding: 2px 5px 2px 5px;
+                }
+
+        img {
+            height:200px;
+            border-radius:2px;
+            }
+            }
+        }
+    h2 {
+        position:relative;
+        text-align:right;
+}
+}
+
+/* story section */
+#story {
+    text-align:center;  
+    margin-top:10%;
+
+    p {
+        font-size:2em;
+    }
+
+    a {
+        text-transform:uppercase;
+        font-size:1em;
+        color:$hover-link-color;
+    }
+
+    a:hover {
+        color:dodgerblue;
+    }
+
+    ul li img:hover {
+        border:1px solid lightgray;
+    }
+}
+

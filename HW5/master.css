@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  font-weight: lighter; }
+
+* a {
+  text-decoration: none; }
+
+.promotion {
+  background-color: #fa6938;
+  padding: 5px; }
+  .promotion .title {
+    text-transform: uppercase;
+    float: left;
+    background: darkslategray;
+    opacity: .5;
+    border-radius: 3px;
+    padding: .5px 8px .5px 8px;
+    margin-left: 15%;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #FFF; }
+  .promotion a {
+    text-decoration: none;
+    color: #FFF; }
+
+a:hover {
+  color: #33a1ff; }
+
+.money li {
+  display: inline-block;
+  font-size: .8em;
+  margin-left: 1%; }
+
+.promotion:hover {
+  background-color: #33a1ff;
+  color: #FFF; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed gray; }
+  .navigation a {
+    color: gray; }
+
+.navigation a:hover {
+  color: #33a1ff; }
+
+.logo {
+  height: 117px;
+  margin-left: 14.5%; }
+
+.annoying {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 3.2%;
+  margin-right: 5%;
+  font-size: 1.5em;
+  font-weight: lighter; }
+
+form {
+  margin-right: 7%;
+  margin-top: 2.8%;
+  width: 300px; }
+
+input {
+  border: 1px solid gray;
+  background-color: #FFF;
+  border-radius: 2px;
+  display: inline-block; }
+
+#input {
+  display: inline-block;
+  padding: 2px 10px 2px 10px; }
+
+#input:hover {
+  border: 1px solid;
+  border-radius: 2px; }
+
+#signing {
+  float: right;
+  margin-right: 31%;
+  font-size: .7em;
+  text-transform: uppercase; }
+
+#search {
+  background-color: lightgray;
+  border-radius: 2px;
+  padding: 2px;
+  display: inline-block; }
+
+/* main */
+.ties {
+  display: block;
+  background-color: #F4F4F4;
+  padding-bottom: 1%;
+  position: relative; }
+  .ties ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 860px;
+    margin-left: 20%; }
+  .ties img {
+    display: flex;
+    height: 155px;
+    justify-content: space-between; }
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: lighter;
+  margin-top: 6%; }
+
+/* bow ties bar */
+.triple {
+  margin-top: 10%;
+  background-color: #FFF; }
+  .triple ul {
+    margin-left: 75px; }
+    .triple ul li {
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 11%;
+      width: 28%; }
+      .triple ul li img {
+        border: 2px solid lightgray;
+        padding: 2px 5px 2px 5px; }
+      .triple ul li img {
+        height: 200px;
+        border-radius: 2px; }
+  .triple h2 {
+    position: relative;
+    text-align: right; }
+
+/* story section */
+#story {
+  text-align: center;
+  margin-top: 10%; }
+  #story p {
+    font-size: 2em; }
+  #story a {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #33a1ff; }
+  #story a:hover {
+    color: dodgerblue; }
+  #story ul li img:hover {
+    border: 1px solid lightgray; }
+
+.weekly {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 170px; }
+  .weekly a {
+    color: #33a1ff; }
+
+#weekly img {
+  height: 155px;
+  border-radius: 3px; }
+
+#weekly img:hover {
+  border: 1px solid lightgray; }
+
+.weekly a:hover {
+  color: dodgerblue; }
+
+#guide img {
+  height: 155px;
+  border-radius: 3px; }
+
+#guide img:hover {
+  border: 1px solid lightgray; }
+
+#loop p {
+  font-size: .9em; }
+
+#email {
+  border-radius: 2px;
+  padding: 2px; }
+
+#sub {
+  border: 1px solid grey;
+  background-color: #33a1ff;
+  border-radius: 2px;
+  color: white;
+  padding: 3px 5px 3px 5px;
+  text-transform: uppercase; }
+
+#sub:hover {
+  background-color: #318fe0; }
+
+#some {
+  float: left;
+  width: 67%; }
+
+/* contact us section */
+.contactus {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  padding-bottom: 40px;
+  width: 60%;
+  margin-top: 2%; }
+  .contactus ul {
+    list-style: none; }
+  .contactus li {
+    color: gray; }
+
+#here {
+  background-color: #a2afc0;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: lighter;
+  padding: 2%;
+  padding-right: 20px;
+  margin-left: 470px; }
+
+#contact {
+  /*margin-left:90%;*/
+  border: 1px solid grey;
+  background-color: #33a1ff;
+  color: #FFF;
+  padding: 2px 8px;
+  margin-left: 180px; }
+
+#contact:hover {
+  background-color: #318fe0; }
+
+.first {
+  font-weight: bold;
+  color: black; }
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,45 @@
+/* contact us section */
+.contactus {
+    display:flex;
+    justify-content:space-between;
+    margin-left:8%;
+    padding-bottom:40px;
+    width:60%;
+    margin-top:2%;
+
+    ul {
+        list-style:none;
+    }
+
+    li {
+        color:gray;
+    }
+}
+
+#here {
+    background-color:$primary-bg-color;
+    border-radius:2px;
+    color:#FFF;
+    font-weight:lighter;
+    padding:2%;
+    padding-right:20px;
+    margin-left:470px;
+}
+
+#contact {
+    /*margin-left:90%;*/
+    border:1px solid grey;
+    background-color:$hover-link-color;
+    color:#FFF;
+    padding:2px 8px;
+   margin-left:180px;
+}
+
+#contact:hover {
+    background-color:#318fe0;
+}
+
+.first {
+    font-weight:bold;
+    color:black;
+}

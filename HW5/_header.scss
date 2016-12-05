@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    font-weight:lighter;
+}
+
+* a {
+    text-decoration:none;
+}
+
+@import "promotion";
+
+@import 'navbar';
+
+@import 'form';
