@@ -1,0 +1,15 @@
+/*Variables*/
+nav {
+  font-size: 1.2em;
+  /* lists in navigation */ }
+  nav ul {
+    background-color: #f66733; }
+    nav ul li {
+      display: inline-block;
+      width: 20%; }
+      nav ul li p .highlight {
+        font-style: italic; }
+  nav h2 {
+    color: #f66733; }
+
+/*# sourceMappingURL=output.css.map */

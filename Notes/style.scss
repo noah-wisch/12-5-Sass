@@ -1,0 +1,27 @@
+/*Variables*/
+$site-bg-color:#f66733;
+$site-text-color:purple;
+$site-logo-color:white;
+$small-column-width:50%;
+$large-column-width:100%;
+
+nav {
+    font-size:1.2em;
+
+    /* lists in navigation */
+    ul {
+        background-color:$site-bg-color;
+
+        li {
+            display:inline-block;
+            width:20%;
+
+            p .highlight {
+                font-style:italic;
+            }
+        }
+    }
+    h2 {
+        color:$site-bg-color;
+    }
+}
