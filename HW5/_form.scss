@@ -5,7 +5,7 @@ form {
 }
 
 input {
-    border:1px solid gray;
+    border:$primary-border-style;
     background-color:$font-color;
     border-radius:2px;
     display:inline-block;

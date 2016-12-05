@@ -1,3 +1,26 @@
+/**
+* Partials start with an underscore in the file name.
+*/
+header {
+  font-size: 1.2em;
+  background-color: #000000;
+  color: #fcfcfc; }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    list-style: none; }
 
+body {
+  background-color: #fcfcfc;
+  color: #000000; }
+
+footer {
+  background-color: #000000;
+  color: #fcfcfc; }
+
+#hero {
+  background-color: #095960;
+  color: #fcfcfc; }
 
 /*# sourceMappingURL=site.css.map */

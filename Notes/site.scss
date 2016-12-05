@@ -1,3 +1,23 @@
 $primary-bg-color:#fcfcfc;
 $primary-font-color:#000000;
 $highlight-bg-color:#095960;
+
+@import 'header';
+// @import 'hero';
+// @import 'highlights';
+// @import 'footer';
+
+body {
+    background-color:$primary-bg-color;
+    color:$primary-font-color;
+}
+
+footer {
+        background-color:$primary-font-color;
+        color:$primary-bg-color;
+}
+
+    #hero {
+        background-color:$highlight-bg-color;
+        color:$primary-bg-color;
+    }

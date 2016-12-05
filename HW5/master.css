@@ -65,7 +65,7 @@ form {
   width: 300px; }
 
 input {
-  border: 1px solid gray;
+  border: 1.5px solid lightgray;
   background-color: #FFF;
   border-radius: 2px;
   display: inline-block; }
@@ -104,8 +104,8 @@ input {
     margin-left: 20%; }
   .ties img {
     display: flex;
-    height: 155px;
-    justify-content: space-between; }
+    justify-content: space-between;
+    height: 155px; }
 
 h1 {
   text-align: center;
@@ -124,16 +124,19 @@ h1 {
       display: flex;
       justify-content: space-between;
       margin-left: 11%;
-      width: 28%; }
+      width: 33%; }
       .triple ul li img {
-        border: 2px solid lightgray;
+        border: 1.5px solid lightgray;
         padding: 2px 5px 2px 5px; }
       .triple ul li img {
         height: 200px;
-        border-radius: 2px; }
+        border-radius: 2px;
+        position: relative;
+        z-index: 0; }
   .triple h2 {
-    position: relative;
-    text-align: right; }
+    position: absolute;
+    margin-left: 200px;
+    z-index: 5; }
 
 /* story section */
 #story {
@@ -148,7 +151,15 @@ h1 {
   #story a:hover {
     color: dodgerblue; }
   #story ul li img:hover {
-    border: 1px solid lightgray; }
+    border: 1.5px solid lightgray; }
+
+.colors {
+  border: 1px solid white; }
+
+#red p {
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: red; }
 
 .weekly {
   display: flex;
@@ -158,23 +169,24 @@ h1 {
   margin-left: 170px; }
   .weekly a {
     color: #33a1ff; }
+    .weekly a:hover {
+      color: dodgerblue; }
 
 #weekly img {
   height: 155px;
   border-radius: 3px; }
 
 #weekly img:hover {
-  border: 1px solid lightgray; }
-
-.weekly a:hover {
-  color: dodgerblue; }
+  border: 1.5px solid lightgray; }
 
 #guide img {
   height: 155px;
   border-radius: 3px; }
+  #guide img:hover {
+    border: 1.5px solid lightgray; }
 
 #guide img:hover {
-  border: 1px solid lightgray; }
+  border: 1.5px solid lightgray; }
 
 #loop p {
   font-size: .9em; }
@@ -184,10 +196,10 @@ h1 {
   padding: 2px; }
 
 #sub {
-  border: 1px solid grey;
+  border: 1.5px solid lightgray;
   background-color: #33a1ff;
   border-radius: 2px;
-  color: white;
+  color: #FFF;
   padding: 3px 5px 3px 5px;
   text-transform: uppercase; }
 
@@ -198,13 +210,12 @@ h1 {
   float: left;
   width: 67%; }
 
-/* contact us section */
 .contactus {
   display: flex;
   justify-content: space-between;
   margin-left: 8%;
   padding-bottom: 40px;
-  width: 60%;
+  width: 1%;
   margin-top: 2%; }
   .contactus ul {
     list-style: none; }
@@ -221,7 +232,6 @@ h1 {
   margin-left: 470px; }
 
 #contact {
-  /*margin-left:90%;*/
   border: 1px solid grey;
   background-color: #33a1ff;
   color: #FFF;
@@ -231,7 +241,7 @@ h1 {
 #contact:hover {
   background-color: #318fe0; }
 
-.first {
+ul .first {
   font-weight: bold;
   color: black; }
 

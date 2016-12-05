@@ -1,10 +1,9 @@
-/* contact us section */
 .contactus {
     display:flex;
     justify-content:space-between;
     margin-left:8%;
     padding-bottom:40px;
-    width:60%;
+    width:1%;
     margin-top:2%;
 
     ul {
@@ -27,7 +26,6 @@
 }
 
 #contact {
-    /*margin-left:90%;*/
     border:1px solid grey;
     background-color:$hover-link-color;
     color:#FFF;
@@ -39,7 +37,7 @@
     background-color:#318fe0;
 }
 
-.first {
+ul .first {
     font-weight:bold;
     color:black;
 }

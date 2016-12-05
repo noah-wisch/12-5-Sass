@@ -7,6 +7,10 @@
 
     a {
         color:$hover-link-color;
+
+        &:hover {
+            color:dodgerblue;
+        }
     }
 }
 
@@ -16,20 +20,20 @@
 }
 
 #weekly img:hover {
-    border:1px solid lightgray;
-}
-
-.weekly a:hover {
-    color:dodgerblue;
+    border:$primary-border-style;
 }
 
 #guide img {
     height:155px;
     border-radius:3px;
+
+    &:hover {
+        border:$primary-border-style;
+    }
 }
 
 #guide img:hover {
-    border:1px solid lightgray;
+    border:$primary-border-style;
 }
 
 #loop p {
@@ -42,10 +46,10 @@
 }
 
 #sub {
-    border:1px solid grey;
+    border:$primary-border-style;
     background-color:$hover-link-color;
     border-radius:2px; 
-    color:white;
+    color:$font-color;
     padding: 3px 5px 3px 5px;
     text-transform:uppercase;
 }
